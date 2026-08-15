@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=DM+Mono:wght@400;500&display=swap');
+@font-face { font-family:'Archivo'; font-weight:500; font-display:swap; src:url('fonts/Archivo-Medium.woff2') format('woff2'); }
+@font-face { font-family:'Archivo'; font-weight:700; font-display:swap; src:url('fonts/Archivo-Bold.woff2') format('woff2'); }
+@font-face { font-family:'Archivo'; font-weight:800; font-display:swap; src:url('fonts/Archivo-ExtraBold.woff2') format('woff2'); }
+@font-face { font-family:'Archivo'; font-weight:900; font-display:swap; src:url('fonts/Archivo-Black.woff2') format('woff2'); }
+@font-face { font-family:'DM Mono'; font-weight:400; font-display:swap; src:url('fonts/DMMono-Regular.woff2') format('woff2'); }
+@font-face { font-family:'DM Mono'; font-weight:500; font-display:swap; src:url('fonts/DMMono-Medium.woff2') format('woff2'); }
 
 :root { --ink:#171412; --paper:#fffdf9; --sand:#ebe2d9; --line:#d9cec4; --ocean:#236b7a; --muted:#756e68; --ember:#d63d2e; }
 * { box-sizing:border-box; }
