@@ -1,0 +1,9 @@
+# Dependabot for SideDish-legal. A static site with no packages, so only the
+# Pages deploy workflow's actions need watching.
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
