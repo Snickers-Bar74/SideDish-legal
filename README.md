@@ -4,7 +4,7 @@ Public, dependency-free legal and account-deletion pages for SideDish.
 
 ## GitHub Pages setup
 
-1. Create a GitHub repository named `SideDish-legal` (this exact casing — the live Pages URLs use it, e.g. `https://snickers-bar74.github.io/SideDish-legal/privacy/`) and push this folder as its repository root.
+1. Reuse the existing GitHub repository named `SideDish-legal` (this exact casing — the Pages URLs use it, e.g. `https://snickers-bar74.github.io/SideDish-legal/privacy/`). The local checkout is now `D:\Prosjekter\Legal\SideDish-legal`; its remote and repository root are unchanged.
 2. In **Settings → Pages**, set **Source** to **GitHub Actions**.
 3. Push to `main`. The Actions workflow deploys the site.
 4. Use these URLs in App Store Connect and Play Console:
@@ -12,4 +12,6 @@ Public, dependency-free legal and account-deletion pages for SideDish.
    - `/terms/`
    - `/delete-account/`
 
-The exact public origin will be shown by the GitHub Pages deployment, typically `https://YOUR-USERNAME.github.io/sidedish-legal/`.
+Existing site base: `https://snickers-bar74.github.io/SideDish-legal/`.
+Confirm its deployed state before store submission. See
+[launch checklist](LAUNCH-CHECKLIST.md) for remaining release checks.
