@@ -7,8 +7,9 @@ See [the shared checklist](../LAUNCH-CHECKLIST.md).
 ## Prepared
 
 - Repository moved intact to `D:\Prosjekter\Legal\SideDish-legal`.
-- Existing privacy, terms, deletion pages, fonts and GitHub Actions deployment retained.
-- Deployment now stages only public pages/assets, keeping maintainer checklists out of the published website.
+- Existing privacy, terms and deletion wording retained.
+- Pages converted from custom HTML to Markdown with `jekyll-theme-minimal`, matching the other legal sites (2 November 2026). URLs are unchanged.
+- GitHub Actions now builds with Jekyll; `_config.yml` keeps maintainer checklists out of the published website.
 - Repository name and published URL casing retained as `SideDish-legal`.
 
 ## Policy inventory to verify against the release

@@ -1,0 +1,8 @@
+title: SideDish
+description: Privacy, terms and account deletion for SideDish
+theme: jekyll-theme-minimal
+url: https://snickers-bar74.github.io
+baseurl: /SideDish-legal
+exclude:
+  - README.md
+  - LAUNCH-CHECKLIST.md
